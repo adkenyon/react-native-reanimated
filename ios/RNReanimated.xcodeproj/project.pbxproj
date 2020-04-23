@@ -29,6 +29,8 @@
 		44125DCB22539177003C1762 /* REATransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 44125DCA22539177003C1762 /* REATransitionAnimation.m */; };
 		44125DCE2253A038003C1762 /* REATransitionValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 44125DCD2253A038003C1762 /* REATransitionValues.m */; };
 		44125DD12253A3C0003C1762 /* RCTConvert+REATransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 44125DD02253A3C0003C1762 /* RCTConvert+REATransition.m */; };
+		63155563244EC1FA00216CB8 /* REAColorNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 63155562244EC1FA00216CB8 /* REAColorNode.m */; };
+		63155565244F53E600216CB8 /* REAColorNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 63155562244EC1FA00216CB8 /* REAColorNode.m */; };
 		660A44292119B821006BFD5E /* REAConcatNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 660A44282119B820006BFD5E /* REAConcatNode.m */; };
 		66240C6920C68DEA00648F55 /* REAAlwaysNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 66240C6820C68DEA00648F55 /* REAAlwaysNode.m */; };
 		A12DA6B722EC228D00E8271A /* REAParamNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A12DA6B622EC228D00E8271A /* REAParamNode.m */; };
@@ -131,6 +133,8 @@
 		44125DCF2253A3C0003C1762 /* RCTConvert+REATransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+REATransition.h"; sourceTree = "<group>"; };
 		44125DD02253A3C0003C1762 /* RCTConvert+REATransition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+REATransition.m"; sourceTree = "<group>"; };
 		4DA383A8226FA6A400582919 /* REAUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = REAUtils.h; sourceTree = "<group>"; };
+		63155562244EC1FA00216CB8 /* REAColorNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REAColorNode.m; sourceTree = "<group>"; };
+		63155564244EC22700216CB8 /* REAColorNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REAColorNode.h; sourceTree = "<group>"; };
 		660A44282119B820006BFD5E /* REAConcatNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REAConcatNode.m; sourceTree = "<group>"; };
 		660A442A2119B83E006BFD5E /* REAConcatNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REAConcatNode.h; sourceTree = "<group>"; };
 		66240C6720C68DEA00648F55 /* REAAlwaysNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REAAlwaysNode.h; sourceTree = "<group>"; };
@@ -211,6 +215,8 @@
 				440FEC1C209062F100EEC73A /* REABezierNode.m */,
 				440FEC10209062F100EEC73A /* REAEventNode.h */,
 				440FEC21209062F100EEC73A /* REAEventNode.m */,
+				63155562244EC1FA00216CB8 /* REAColorNode.m */,
+				63155564244EC22700216CB8 /* REAColorNode.h */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
@@ -351,6 +357,7 @@
 				66240C6920C68DEA00648F55 /* REAAlwaysNode.m in Sources */,
 				440FEC2F209062F100EEC73A /* REAClockNodes.m in Sources */,
 				660A44292119B821006BFD5E /* REAConcatNode.m in Sources */,
+				63155563244EC1FA00216CB8 /* REAColorNode.m in Sources */,
 				440FEC38209062F100EEC73A /* REAOperatorNode.m in Sources */,
 				440FEC34209062F100EEC73A /* REANode.m in Sources */,
 				440FEC30209062F100EEC73A /* REAValueNode.m in Sources */,
@@ -385,6 +392,7 @@
 				FDBB177D229BF0E700D1E455 /* REATransitionValues.m in Sources */,
 				FDE6D942229BF70F007F6716 /* REAEventNode.m in Sources */,
 				FDE6D93E229BF70F007F6716 /* READebugNode.m in Sources */,
+				63155565244F53E600216CB8 /* REAColorNode.m in Sources */,
 				FDE6D938229BF70F007F6716 /* REATransformNode.m in Sources */,
 				FDBB177A229BF0E700D1E455 /* REATransition.m in Sources */,
 				FDBB177E229BF0E700D1E455 /* RCTConvert+REATransition.m in Sources */,

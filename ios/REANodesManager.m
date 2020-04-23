@@ -22,6 +22,7 @@
 #import "Nodes/REAParamNode.h"
 #import "Nodes/REAFunctionNode.h"
 #import "Nodes/REACallFuncNode.h"
+#import "Nodes/REAColorNode.h"
 
 @interface RCTUIManager ()
 
@@ -236,6 +237,7 @@
             @"param": [REAParamNode class],
             @"func": [REAFunctionNode class],
             @"callfunc": [REACallFuncNode class],
+            @"color": [REAColorNode class],
 //            @"listener": nil,
             };
   });
